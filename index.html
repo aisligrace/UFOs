@@ -11,13 +11,15 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="static/css/style.css">
+   
 </head>
-<body>
+<body class="bg-dark">
     <div class="wrapper">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
         <div class="jumbotron">
+
             <h1 class="display-4">The Truth Is Out There</h1>
         </div>
         <div class="container-fluid">
@@ -55,14 +57,17 @@
     </div>
     <ul class="list-group">
     </ul>
-    <li class="list-group-item">
 
-    </li>
-    <li class="list-group-item">
     
-    </li>
     <label for="date">Enter Date</label>
     <input type="text" placeholder="1/10/2010" id="datetime" />
+    <label for="date">City</label>
+    <label for="date">State</label>
+    <label for="date">Country</label>
+    <label for="date">Shape/label>
+
+
+
     <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
     <div class="col-md-9">
         <table class="table table-striped">
@@ -81,7 +86,21 @@
         </table>
       </div>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-      <script src="static/js/data.js"></script>
-      <script src="static/js/app.js"></script>
+      <script src="js/data.js"></script>
+      <script src="js/app_1.js"></script>
 
+      <form class="bg-dark">
+        <p>Filter Search</p>
+        <ul class="bg-dark">
+          <li> class=bg-dark">
+            <label for="date">Enter Date</label>
+            <input type="text" placeholder="1/10/2010" id="datetime" />
+          </li>
+          <li>
+             <button id="filter-btn" type="button" class="btn btn-default">
+               Filter Table
+             </button>
+          </li>
+        </ul>
+       </form>
 </html>
