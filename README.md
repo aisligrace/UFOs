@@ -17,5 +17,5 @@ Users can search for a particular state using the 'Enter a Shape' search box
 ![image](https://github.com/aisligrace/UFOs/blob/main/Screen%20Shot%202022-03-13%20at%202.03.03%20PM.png)
 
 ## Summary
-
+While this website is simple and user friendly, one difficulty is not knowing all the available options within each search parameter. For example, there isn't an easy way to know all the available shapes. One remedy to this would be to include a drop down menu of available shapes to choose from. Along with creating drop down menus, if I had more time, I would add a 'clear' or 'refresh' button to clear out the search boxes so the user could start from scratch. There is also not a way to search for comments, which makes sense because some of the comments are extremely long and detailed. With further development, you could add a 'Enter a Key Word(s) for Comments' search parameter, that could search for key words within the comments. 
 
